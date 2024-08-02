@@ -1,4 +1,4 @@
-game.StarterGui:SetCore("SendNotification",  {
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwgame.StarterGui:SetCore("SendNotification",  {
  Title = "made by removedxd";
  Text = "u can change keybind on script tab in ur executor";
  Icon = "http://www.roblox.com/asset/?id=951528747";
@@ -13,7 +13,7 @@ local Player = game:GetService("Players").LocalPlayer
             local Mouse = Player:GetMouse()
             local SpeedGlitch = false
             Mouse.KeyDown:Connect(function(Key)
-                if Key == "z" then    ---- u can keybind here :) (rejoin required)
+                if Key == "x" then    ---- u can keybind here :) (rejoin required)
                     SpeedGlitch = not SpeedGlitch
                     if SpeedGlitch == true then
                         repeat game:GetService("RunService").Heartbeat:wait()
