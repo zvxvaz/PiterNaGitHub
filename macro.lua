@@ -1,7 +1,7 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "removedxd on discord";
+Description = "da hood macro script press x to macro my discord is removedxd report any bugs!";
 Title = "made by piter";
 Duration = 15;
 });
