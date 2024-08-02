@@ -13,7 +13,7 @@ local Player = game:GetService("Players").LocalPlayer
             local Mouse = Player:GetMouse()
             local SpeedGlitch = false
             Mouse.KeyDown:Connect(function(Key)
-                if Key == "x" then    ---- u can keybind here :) (rejoin required)
+                if Key == "z" then    ---- u can keybind here :) (rejoin required)
                     SpeedGlitch = not SpeedGlitch
                     if SpeedGlitch == true then
                         repeat game:GetService("RunService").Heartbeat:wait()
