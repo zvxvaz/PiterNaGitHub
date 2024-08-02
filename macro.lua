@@ -10,7 +10,7 @@ game.StarterGui:SetCore("SendNotification",  {
 }
 )
 	local sound = Instance.new("Sound")
-	sound.SoundId = "rbxassetid://413861777"
+	sound.SoundId = "rbxassetid://33069371"
 	sound.Parent = game:GetService("SoundService")
 	sound:Play()
 local Player = game:GetService("Players").LocalPlayer
