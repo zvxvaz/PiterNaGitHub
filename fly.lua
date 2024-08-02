@@ -28,8 +28,8 @@ if game.Lighting:FindFirstChild("TheEvilDeveloper:Fl1") then
     return nil
 end
 UserInputService.InputBegan:Connect(function(Key)
-    if Key.KeyCode == Enum.KeyCode.Z then
-        Fly = not Fly
+    if Key.KeyCode == Enum.KeyCode.Z then --------------- u can change keybind here `rejoin requaired`
+        Fly = not fly
     elseif Key.KeyCode == Enum.KeyCode.W then
         Keys.W = true
     elseif Key.KeyCode == Enum.KeyCode.A then
