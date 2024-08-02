@@ -1,4 +1,4 @@
-.StarterGui:SetCore("SendNotification",  {
+StarterGui:SetCore("SendNotification",  {
  Title = "made by piter";
  Text = "u can change keybind on script tab in ur executor";
  Icon = "http://www.roblox.com/asset/?id=951528747";
