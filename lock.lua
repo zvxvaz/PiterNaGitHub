@@ -14,7 +14,7 @@ getgenv().FakeMacro = true
               u can change ur sets here!
 getgenv().prediction = 0 --------- put ur preiction here
 getgenv().offset = 0 ------- put ur jump offset 0-0.10
-getgenv().resolver = false -------- relosve for antilock
+getgenv().resolver = false -------- relosve antilocks `put "true" to trun it on`
 getgenv().smoothness = 1 ------- smoothenss for ur camlock `defalut is 1`
 
 local players = game:GetService("Players")
@@ -49,7 +49,7 @@ end
 end
 end
 end
-return target and (target.PrimaryPart or target:FindFirstChildOfClass("Humanoid").RootPart)
+return target and (target.PrimaryPart or target:FindFirstChildOfClass("Humanoid").RootPart) ---------- put ur aimprat here
 end
 
 userinputservice.InputBegan:Connect(function(input, processed)
