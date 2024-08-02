@@ -13,8 +13,6 @@ game.StarterGui:SetCore("SendNotification",  {
 	sound.SoundId = "rbxassetid://413861777"
 	sound.Parent = game:GetService("SoundService")
 	sound:Play()
-}
-)
 local Player = game:GetService("Players").LocalPlayer
             local Mouse = Player:GetMouse()
             local SpeedGlitch = false
