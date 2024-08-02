@@ -1,7 +1,7 @@
 game.StarterGui:SetCore("SendNotification",  {
  Title = "made by removedxd";
  Text = "u can change keybind on script tab in ur executor";
- Icon = "http://www.roblox.com/asset/?id=951528747";
+ Icon = "http://www.roblox.com/asset/?id=12221215411";
  Duration = 98083905839058095809389034;
  Button1 = "esex?";
  Button2 = "i love u daddy";
