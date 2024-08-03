@@ -1,7 +1,7 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterNaGitHub/PiterNaGitHub/main/text.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "da hood simple lock script success executed press C to lock report any bugs to my discord server: https://discord.gg/zcWzFTrP6R";
+Description = "da hood simple lock script press C for lock (u can change keybind in tab on ur executor) report any bugs to my discord: removedxd";
 Title = "made by piter";
 Duration = 15;
 });
@@ -367,19 +367,19 @@ do -- main connection
                     end
                 end
             end
-
+            
             for _, item in pairs(backpack:GetChildren()) do
                 if item:IsA("Tool") and (not getgenv().NemesisPreBeta.Miscs.Sorting.Custom.Enable or not isInCustomList(item.Name)) then
                     table.insert(items, item)
                 end
             end
-
+            
             if getgenv().NemesisPreBeta.Miscs.Sorting.alphabetically and not getgenv().NemesisPreBeta.Miscs.Sorting.Custom.Enable then
                 table.sort(items, function(a, b)
                     return a.Name < b.Name
                 end)
             end
-
+            
             if getgenv().NemesisPreBeta.Miscs.Sorting.Ammo and not getgenv().NemesisPreBeta.Miscs.Sorting.Custom.Enable then
                 table.sort(items, function(a, b)
                     return a.Value > b.Value
@@ -411,10 +411,10 @@ do -- main connection
 
     NewConnection(Rservice.Heartbeat, function()
 
-
+            
             Thread(UpdateCamlock())
 
-
+            
             Thread(UpdateSilent())
 
     end)
