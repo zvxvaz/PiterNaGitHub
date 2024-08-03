@@ -1,5 +1,3 @@
--- Made BY Mr.Alegator
-
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
