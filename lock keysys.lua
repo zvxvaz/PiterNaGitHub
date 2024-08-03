@@ -97,7 +97,7 @@ SubmitButton.MouseButton1Click:Connect(function()
     if KeySystem == "UsWks76xxncsWiuy89bv" then   
 screenGui:Destroy()
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterNaGitHub/PiterNaGitHub/main/lock.lua"))() --Your Script
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterNaGitHub/PiterNaGitHub/main/dahoodlock.lua"))() --Your Script
   
   end
 end)
