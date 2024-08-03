@@ -1,7 +1,7 @@
     local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterNaGitHub/PiterNaGitHub/main/text.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "antilock and aimviewer success executed press x to antilock press p to aimviewer press f to target player for aimview report any bugs to our discord server: https://discord.gg/k93hppJwEm";
+Description = "antilock and aimviewer success executed press z to antilock press p to aimviewer press f to target player for aimview report any bugs to our discord server: https://discord.gg/k93hppJwEm";
 Title = "made by piter";
 Duration = 15;
 });
