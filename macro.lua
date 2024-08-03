@@ -1,7 +1,7 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterNaGitHub/PiterNaGitHub/main/text.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "da hood macro script press x to macro my discord is removedxd report any bugs!";
+Description = "da hood macro script success executed press X for macro report any bugs to my discord server: https://discord.gg/zcWzFTrP6R";
 Title = "made by piter";
 Duration = 15;
 });
