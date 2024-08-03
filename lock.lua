@@ -1,7 +1,7 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterNaGitHub/PiterNaGitHub/main/text.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "da hood simple lock script press Q for lock (u can change keybind in tab on ur executor) report any bugs to my discord: removedxd";
+Description = "da hood simple lock script success executed press C to lock report any bugs to my discord server: https://discord.gg/zcWzFTrP6R"
 Title = "made by piter";
 Duration = 15;
 });
