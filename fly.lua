@@ -1,7 +1,7 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterNaGitHub/PiterNaGitHub/main/text.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "simple cframe fly script removedxd on discord for report the bugs";
+Description = "cframe fly success executed report any bugs to my discord server: https://discord.gg/zcWzFTrP6R";
 Title = "made by piter";
 Duration = 15;
 });
