@@ -19,7 +19,7 @@ getgenv().NemesisPreBeta = {
     ["Camlock"] = {
         Toggling = {
             Enable = true, 
-            Keybind = "Q"
+            Keybind = "C"
         },
         Settings = {
             Prediction = { 
