@@ -13,44 +13,44 @@ getgenv().FakeMacro = true
 	sound:Play()
 getgenv().NemesisPreBeta = {
     ["Settings"] = {
-        Disabling = {Toggle = false, Keybind = "H"},    ---------------------- disable/enable camlock
+        Disabling = {Toggle = false, Keybind = "H"},
         UpdateTickDelay = 0.05
     },
     ["Camlock"] = {
         Toggling = {
             Enable = true, 
-            Keybind = "C"  ----------------------------- change ur keybind here (rejoin required)
+            Keybind = "Q"
         },
         Settings = {
-            Prediction = { --------------------change ur prediction here (rejoin required)
+            Prediction = { 
                 true, 
                 999.999, 
                 false, 
-                .133
+                .128
             },
-            Smoothing = {     ---------------- put ur smooting for camlock here (rejoin required)
+            Smoothing = {
                 smoothness = true, 
                 x = 1, 
                 y = 1
             },
-            OffSets = {  --------------------- change ur jump offset here (rejoin required)
+            OffSets = {
                 Jump = {
                     Enable = false, 
                     [1] = Vector3.new(0, 3, 0)
                 }
             }
         },
-        Conditions = { ------------------------------------------------ misc
+        Conditions = {
             Player = {
-                WallCheck = true,   -------------------------- checking wall players
-                Grabbed = false,   --------------------- ?
-                Knocked = false,   ---------------------- if ur opp die it automaticlly take off
-                CrewID = false    -------------------- ?
+                WallCheck = false, 
+                Grabbed = false, 
+                Knocked = false, 
+                CrewID = false
             },
-            BodyParts = {"HumanoidRootPart"}  ---------------------- change ur aimpart here (rejoin required)
+            BodyParts = {"HumanoidRootPart", "Head"}
         }
     },
-    ["Silent"] = {  ------------ not working yet
+    ["Silent"] = {
         Toggling = { Enable = false },
         Settings = {
             Prediction = { true , 0.11934 , false, 0.003 },
@@ -411,10 +411,10 @@ do -- main connection
 
     NewConnection(Rservice.Heartbeat, function()
 
-            
+            --//  camlock
             Thread(UpdateCamlock())
 
-            
+            --// Silent UPDATE
             Thread(UpdateSilent())
 
     end)
