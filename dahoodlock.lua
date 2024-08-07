@@ -65,7 +65,7 @@ getgenv().NemesisPreBeta = {
         },
         Conditions = {
             Player = { WallCheck = false, Grabbed = false, Knocked = false, CrewID = false },
-            BodyParts = {"HumanoidRootPart", "UpperTorso", "Head"}
+            BodyParts = {"HumanoidRootPart"}
         }
     },
     ["Field Of View"] = {
