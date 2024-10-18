@@ -3,7 +3,7 @@ local Notify = AkaliNotif.Notify;
 Notify({
 Description = "i hate niggers";
 Title = "ania ma ciasna cipke";
-Duration = 50;
+Duration = 15;
 });
 getgenv().Speed = true
 getgenv().FakeMacro = true
