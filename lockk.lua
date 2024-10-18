@@ -1,8 +1,8 @@
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "i hate niggers";
-Title = "ania ma ciasna cipke";
+Description = "jebac czarne federackie kurwy z podkarpacia lock juz dziala :D";
+Title = "no siema kurwa dodaj na dc: removedxd czarnuchu pierdolony";
 Duration = 15;
 });
 getgenv().Speed = true
