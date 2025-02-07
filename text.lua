@@ -1,8 +1,8 @@
-local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/PiterNaGitHub/PiterNaGitHub/main/text.lua"))();
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 Notify({
-Description = "shutdown.";
-Title = "bye.";
+Description = "?";
+Title = "?";
 Duration = 15;
 });
 getgenv().Speed = true
