@@ -24,7 +24,7 @@ library.theme = {
     font = Enum.Font.Code,
     background = "rbxassetid://5553946656",
     tilesize = 90,
-    cursor = true,
+    cursor = false,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
     backgroundcolor = Color3.fromRGB(20, 20, 20),
     tabstextcolor = Color3.fromRGB(240, 240, 240),
@@ -49,9 +49,9 @@ if library.theme.cursor and Drawing then
         library.cursor = Drawing.new("Image")
         library.cursor.Data = game:HttpGet(library.theme.cursorimg)
         library.cursor.Size = Vector2.new(64, 64)
-        library.cursor.Visible = uis.MouseDisable
+        library.cursor.Visible = uis.MouseEnabled
         library.cursor.Rounding = 0
-        library.cursor.Position = Vector2.new(mouse.X - 0, mouse.Y + 0)
+        library.cursor.Position = Vector2.new(mouse.X - 32, mouse.Y + 6)
     end)
     if success and library.cursor then
         uis.InputChanged:Connect(function(input)
