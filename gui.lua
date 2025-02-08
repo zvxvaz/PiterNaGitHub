@@ -1,3 +1,4 @@
+-- insert troll face, memcorruptv2
 local library = { 
 	flags = { }, 
 	items = { } 
@@ -66,6 +67,7 @@ if library.theme.cursor and Drawing then
             library.cursor.Visible = uis.MouseEnabled and (uis.MouseIconEnabled or game:GetService("GuiService").MenuIsOpen)
         end)
     elseif not success and library.cursor then
+        library.cursor:Remove()
     end
 end
 
