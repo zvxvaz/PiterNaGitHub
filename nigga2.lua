@@ -1,7 +1,7 @@
 getgenv().Flight = {
     Enabled = false,  -- Domyślnie wyłączony
     Speed = 500,  -- Domyślna prędkość
-    Keybind = "F"  -- Domyślny klawisz przełączania
+    Keybind = Enum.KeyCode.F  -- Domyślny klawisz przełączania (Enum.KeyCode.F)
 }
 
 local runService = game:GetService("RunService")
@@ -93,9 +93,8 @@ end
 local function onToggleKeyPressed(input, gameProcessed)
     -- Sprawdź, czy klawisz został wciśnięty i nie jest zablokowany przez grę
     if gameProcessed then return end
-    local currentKeybind = Enum.KeyCode[getgenv().Flight.Keybind]
     
-    if input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == currentKeybind then
+    if input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode == getgenv().Flight.Keybind then
         toggleFlight()
     end
 end
@@ -109,7 +108,7 @@ end
 
 -- Funkcja do ustawienia keybindu
 getgenv().Flight.SetKeybind = function(newKey)
-    if type(newKey) == "string" then
+    if typeof(newKey) == "EnumItem" then
         getgenv().Flight.Keybind = newKey
     end
 end
