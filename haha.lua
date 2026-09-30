@@ -5751,12 +5751,8 @@ local Library do
             end
         end
 
-        Items["SearchPlayers"]:Connect("GetPropertyChangedSignal", function()
-            ApplyPlayerSearch()
-        end)
-
-        -- Some versions of the wrapper do not proxy GetPropertyChangedSignal,
-        -- so connect directly as well.
+        -- GetPropertyChangedSignal is a method, not an event property.
+        -- Connect it directly on the Roblox TextBox instance.
         Items["SearchPlayers"].Instance:GetPropertyChangedSignal("Text"):Connect(ApplyPlayerSearch)
 
         SpectateButton:Connect("MouseButton1Down", function()
